@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Hello!</title>
+  <style>
+  #container
+  {
+     background-color:green;
+     margin:0 10%;
+     height:550px;
+  }
+  #header
+  {
+     background-color:#00FFCC;
+     height:150px;
+     margin:0 2.5%;
+  }
+  #nav
+  {
+     background-color: #666600;
+     width:150px;
+    float:left;
+     height:550px;
+
+  }
+  #section
+  {
+      position:absolute;
+       margin-left:151px;
+       background-color: #663366 ;
+        width:710px;
+           height:550px;
+
+  }
+  #aside
+  {
+    float:right;
+      width:150px;
+        background-color: #FF3366 ;
+        height:550px;
+  }
+  #footer
+  {
+      clear:left;
+          background-color: #66FF99 ;
+  }
+
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+      <div id="header">
+           <p>header</p>
+      </div>
+
+    <div id=main>
+        <div id="nav">
+            <p>menu</p>
+        </div>
+        <div id="aside">
+        <p>aside</p>
+        </div>
+      <div id="section">
+      <div class="article">
+
+         <p>arcticle1</p>
+      </div>
+      <div class="article">
+
+          <p>arcticle2</p>
+      </div>
+      <div class="article">
+
+      <p>article3</p>
+      </div>
+
+
+      </div>
+
+
+      </div>
+         <div id="footer">
+
+         <p>footer</p>
+         </div>
+</div>
+
+</body>
+
+</html>
